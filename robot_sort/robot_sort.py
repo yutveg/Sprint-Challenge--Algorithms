@@ -109,8 +109,6 @@ class SortingRobot:
 
             self.set_light_on()
 
-            # picks up none, sets in next index
-
             # goes right, finds smallest value
             while self.can_move_right() == True:
                 if(self.compare_item is None):
